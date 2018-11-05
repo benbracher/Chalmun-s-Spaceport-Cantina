@@ -45,12 +45,16 @@ body {
     position: absolute;
     display: none;
 }
-
 .nav li:hover ul {
     display: block;
 }
+.custom {
+    cursor: url(assets/cursor/normal.cur), auto;
+}
+a{
+    cursor: url(assets/cursor/normal.cur), auto;
 
-
+}
 
 @font-face {
     font-family: starWars;
