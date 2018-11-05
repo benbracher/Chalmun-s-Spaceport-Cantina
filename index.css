@@ -1,0 +1,19 @@
+body {
+    background-image: url("assets/images/cantina/cantina-exterior.jpg");
+}
+
+
+.button {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 0.7em;
+    border: 0.3em;
+    background-image: url("assets/images/cantina/cantina-space.png");
+    font-family: starWars;
+}

@@ -1,0 +1,58 @@
+html { 
+    height: 100%;
+}
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-family: starWars;
+}
+.nav {
+    position: fixed;
+    color: #fff;
+}
+.nav li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
+.nav ul {
+    list-style: none;
+    background-image: url("assets/images/cantina/cantina-space.png");
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 130px;
+
+}
+.nav li li {
+  font-size: .8em;
+}
+.nav > ul > li {
+    text-align: left;
+}
+.nav li ul {
+    position: absolute;
+    display: none;
+}
+
+.nav li:hover ul {
+    display: block;
+}
+
+
+
+@font-face {
+    font-family: starWars;
+    src: url(assets/fonts/starjout/Starjout.ttf);
+}

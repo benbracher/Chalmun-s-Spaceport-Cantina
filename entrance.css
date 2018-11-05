@@ -1,0 +1,35 @@
+body {
+    background-image: url("assets/images/cantina/cantina-entrance.jpg");
+}
+table {
+    position: fixed;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 75%;
+    height: 25%;
+    font-family: starWars;
+    
+}
+td {
+    text-align: center;
+    width: 25%;
+}
+img {
+    height: 206px;
+    width: 100%;
+}
+#navBarShowSelection1 {
+    background-image: url("assets/images/cantina/cantina-space.png");
+}
+#navBarShowSelection2 {
+    background-image: url("assets/images/cantina/cantina-space.png");
+}
+#navBarShowSelection3 {
+    background-image: url("assets/images/cantina/cantina-space.png");
+}
+#navBarShowSelection4 {
+    background-image: url("assets/images/cantina/cantina-space.png");
+}

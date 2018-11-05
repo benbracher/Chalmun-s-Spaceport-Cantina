@@ -1,0 +1,34 @@
+body {
+    background-image: url("assets/images/cantina/cantina-bar.jpg");
+}
+h1 {
+    text-align: center;
+    color: #fff;}
+table {
+    background-image: url("assets/images/cantina/cantina-space.png");
+    margin: auto;
+    padding: 1.5em  0 2.0em 1.5em;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+    table-layout: fixed;
+}
+td{
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    border: rgb(40, 1, 129) solid 1px;
+    border-radius: 0.6em;
+    text-align: center;
+}
+td img.foodStuffs {
+    width: 235px;
+    height: 235px;
+    position: relative;
+    transition: transform .2s;
+}
+.foodStuffs:hover {
+    transform: scale(1.5);
+    z-index: 3;
+}
